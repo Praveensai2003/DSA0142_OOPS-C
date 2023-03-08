@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+    double x = 16.0;
+    double sqrt_x = sqrt(x);
+
+    std::cout << "The square root of " << x << " is " << sqrt_x << std::endl;
+
+    return 0;
+}
